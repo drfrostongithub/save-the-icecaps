@@ -6,9 +6,9 @@ We've decided to launch a donation-driven monthly newsletter, delivered straight
 
 This form needs to collect the **recipient's name** and **mailing address** so they can get their newsletter. Marketing would also like to have the customer's **gender**, **date of birth**, and/or **income level**, if possible, so they can send follow-up emails asking for more donations; this information is useless otherwise, though, so *whether or not you think we should ask for this is up to you*.
 
-We also need to let donators decide on **how much to donate** (at least **1 Euro**) and if they want to **subscribe** to the monthly newsletter, *or* just **one-off** purchase the next edition. To make this enticing, let's use a checkbox to indicate to opt-out of the subscription, with some guilt-tripping text like "I hate polar bears -- select this to not opt-out of a one-off donation". This should help us get more donations!
+We also need to let donators decide on **how much to donate** (at least **1 Euro**) and if they want to **subscribe** to the monthly newsletter, *or* just **one-off** purchase the next edition. To make this enticing, let's use a checkbox to let people opt-out of the subscription, with some guilt-tripping text like "I hate polar bears -- select this to not opt-out of a one-off donation". This should help us get more donations!
 
-As a GDPR-compliant company, we need to make sure the user **agrees to our terms and conditions**. To make it easier for them, pre-check the option. We care about good usability.
+As a proudly GDPR-compliant organization, we need to make sure the user **agrees to our terms and conditions**. To make it easier for them, pre-check the option. We care about good usability.
 
 Oh, and before hitting "submit", make sure there's a little **preview/confirmation** area so donators know exactly **how much they are paying** (always in Euro) and **when to expect for the next issue** to arrive (for example: "We will charge you 1 234,56 € on 3.5.2021"). We plan to send out the newsletter on the first workday of every month.
 
