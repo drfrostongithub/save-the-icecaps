@@ -30,3 +30,5 @@ We don't expect your code to be perfect, and we don't want you to goldplate a qu
 - Styling/visuals: just go for the bare basic requirements (feel free to use a CSS framework if you'd like).
 - Excessive abstraction: this is a one-off project, so abstract as much as makes sense to you, but don't over-engineer it; readability is paramount!
 - Backend/implementation: just build the web form; **the "submit" button doesn't need to do anything**.
+
+Bear in mind, **this test is deliberately open to interpretation**. We at Jobilla are a very autonomous team of engineers who are very critical of our own workflow, specifications and practices. If you disagree to any part of the test or think there's a better way to do things, *do so*—and tell us about your decisions and why.
