@@ -14,7 +14,9 @@ Oh, and before hitting "submit", make sure there's a little **preview/confirmat
 
 ---
 
-This is a code test built to help us learn about your skills with:
+We hope this task is entertaining and straightforward for you. Please set aside, at most, around two hours of your time to complete it.
+
+This code test is built to help us learn about your skills with:
 
 - HTML DOM, accessibility, and semantics
 - Javascript API familiarity
