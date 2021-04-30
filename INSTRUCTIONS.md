@@ -26,7 +26,7 @@ This code test is built to help us learn about your skills with:
 - Basic UI/UX
 - Ethical-minded engineering
 - Tooling stack, if you choose to use one
-- Testing (optional, but preferred!
+- Testing (optional, but preferred!)
 - Good use of Vue and Typescript (optional -- if you're more familiar with another stack, feel free!)
 
 We don't expect your code to be perfect, and we don't want you to goldplate a quick test project. As such, don't worry too much about:
