@@ -14,6 +14,8 @@ Oh, and before hitting "submit", make sure there's a little **preview/confirmat
 
 ---
 
+## What we're looking for
+
 We hope this task is entertaining and straightforward for you. Please set aside, at most, around two hours of your time to complete it.
 
 This code test is built to help us learn about your skills with:
@@ -33,4 +35,8 @@ We don't expect your code to be perfect, and we don't want you to goldplate a qu
 - Excessive abstraction: this is a one-off project, so abstract as much as makes sense to you, but don't over-engineer it; readability is paramount!
 - Backend/implementation: just build the web form; **the "submit" button doesn't need to do anything**.
 
-Bear in mind, **this test is deliberately open to interpretation**. We at Jobilla are a very autonomous team of engineers who are very critical of our own workflow, specifications and practices. If you disagree to any part of the test or think there's a better way to do things, *do so*—and tell us about your decisions and why.
+---
+
+Bear in mind, **this test is deliberately open to interpretation**. We at Jobilla are a very autonomous team of engineers who are very critical of our own workflow, specifications and practices. If you disagree to any part of the test specification or think there's a better way to do things, *do so*—and tell us about your decisions and why.
+
+We recommend leaving a text file in your repository with a compilation of your thought process, concerns, and opinions about **both** the code you wrote and the specification you received. Did it all make sense? Did you raise your eyebrows at anything? Was anything particularly challenging? Do you think that Save The Icecaps Inc is a good company to work for? Do you think the end user would be happy with what you built?
