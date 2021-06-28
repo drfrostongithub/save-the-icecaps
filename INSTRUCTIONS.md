@@ -4,7 +4,7 @@ We are a not-real organization looking to spread the word about our quickly diss
 
 We've decided to launch a donation-driven monthly physical newsletter, delivered straight to your home, for our recent climate change awareness campaign. We need to **build a web form** so donators can **sign up for the newsletter** (don't worry about actually billing and charging people, we'll handle that separately).
 
-This form needs to collect the **recipient's name** and **mailing address** so they can get their newsletter. Marketing would also like to have the customer's **gender**, **date of birth**, and/or **income level**, if possible, so they can send follow-up letters asking for more donations; this information is useless otherwise, though, so *whether or not you think we should ask for this is up to you*.
+This form needs to collect the **recipient's name** and **phyiscal home address** so they can get their newsletter. Marketing would also like to have the customer's **gender**, **date of birth**, and/or **income level**, if possible, so they can send follow-up letters asking for more donations; this information is useless otherwise, though, so *whether or not you think we should ask for this is up to you*.
 
 We also need to let donators decide on **how much to donate** (at least **1 Euro**) and if they want to **subscribe** to the monthly newsletter, *or* just **one-off** purchase the next edition. To make this enticing, let's use a checkbox to let people opt-out of the subscription, with some guilt-tripping text like "I hate polar bears -- select this to opt out of a recurring donation". This should help us get more donations!
 
