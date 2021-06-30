@@ -10,7 +10,7 @@ We also need to let donators decide on **how much to donate** (at least **1 E
 
 As a proudly GDPR-compliant organization, we need to make sure the user **agrees to our terms and conditions**. To make it easier for them, pre-check the option. We care about good usability.
 
-Oh, and before hitting "submit", make sure there's a little **preview/confirmation** area so donators know exactly **how much they are paying** (always in Euro) and **when to expect for the next issue** to arrive (for example: "We will charge you 1 234,56 € on 3.5.2021"). We plan to send out the newsletter on the first workday of every month.
+Oh, and before hitting "submit", make sure there's a little **preview/confirmation** area so donators know exactly **how much they are paying** (always in Euro) and **when to expect for the next issue** to arrive (for example: "We'll ask for your donation of 1 234,56 € with your newsletter on 3.5.2021"). We plan to send out the newsletter on the first workday of every month.
 
 ---
 
