@@ -31,6 +31,7 @@ This code test is built to help us learn about your skills with:
 
 We don't expect your code to be perfect, and we don't want you to goldplate a quick test project. As such, don't worry too much about:
 
+- Component libraries: we prefer familiarity with native HTML and Javascript APIs/components/functionality, such as native form inputs; if you do pull in more packages, make sure you have a good reason for it!
 - Styling/visuals: just go for the bare basic requirements (feel free to use a CSS framework if you'd like).
 - Excessive abstraction: this is a one-off project, so abstract as much as makes sense to you, but don't over-engineer it; readability is paramount!
 - Backend/implementation: just build the web form; **the "submit" button doesn't need to do anything**.
