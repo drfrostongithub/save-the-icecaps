@@ -2,15 +2,15 @@
 
 We are a not-real organization looking to spread the word about our quickly dissolving polar ice reserves.
 
-We've decided to launch a donation-driven monthly physical newsletter, delivered straight to your home, for our recent climate change awareness campaign. We need to **build a web form** so donators can **sign up for the newsletter** (don't worry about actually billing and charging people, we'll handle that separately).
+We've decided to launch a donation-driven monthly physical newsletter, delivered straight to your home, for our recent climate change awareness campaign. We need to **build a web form** so donators can **sign up for the newsletter** (don't worry about actually billing and charging people, we'll handle that separately).
 
-This form needs to collect the **recipient's name** and **phyiscal home address** so they can get their newsletter. Marketing would also like to have the customer's **gender**, **date of birth**, and/or **income level**, if possible, so they can send follow-up letters asking for more donations; this information is useless otherwise, though, so *whether or not you think we should ask for this is up to you*.
+This form needs to collect the **recipient's name** and **phyiscal home address** so they can get their newsletter. Marketing would also like to have the customer's **gender**, **date of birth**, and/or **income level**, if possible, so they can send follow-up letters asking for more donations; this information is useless otherwise, though, so *whether or not you think we should ask for this is up to you*.
 
-We also need to let donators decide on **how much to donate** (at least **1 Euro**) and if they want to **subscribe** to the monthly newsletter, *or* just **one-off** purchase the next edition. To make this enticing, let's use a checkbox to let people opt-out of the subscription, with some guilt-tripping text like "I hate polar bears -- select this to opt out of a recurring donation". This should help us get more donations!
+We also need to let donators decide on **how much to donate** (at least **1 Euro**) and if they want to **subscribe** to the monthly newsletter, *or* just **one-off** purchase the next edition. To make this enticing, let's use a checkbox to let people opt-out of the subscription, with some guilt-tripping text like "I hate polar bears -- select this to opt out of a recurring donation". This should help us get more donations!
 
-As a proudly GDPR-compliant organization, we need to make sure the user **agrees to our terms and conditions**. To make it easier for them, pre-check the option. We care about good usability.
+As a proudly GDPR-compliant organization, we need to make sure the user **agrees to our terms and conditions**. To make it easier for them, pre-check the option. We care about good usability.
 
-Oh, and before hitting "submit", make sure there's a little **preview/confirmation** area so donators know exactly **how much they are paying** (always in Euro) and **when to expect for the next issue** to arrive (for example: "We'll ask for your donation of 1 234,56 € with your newsletter on 3.5.2021"). We plan to send out the newsletter on the first workday of every month.
+Oh, and before hitting "submit", make sure there's a little **preview/confirmation** area so donators know exactly **how much they are paying** (always in Euro) and **when to expect for the next issue** to arrive (for example: "We'll ask for your donation of 1 234,56 € with your newsletter on 3.5.2021"). We plan to send out the newsletter on the first workday of every month.
 
 ---
 
@@ -34,7 +34,7 @@ We don't expect your code to be perfect, and we don't want you to goldplate a qu
 - Component libraries: we prefer familiarity with native HTML and Javascript APIs/components/functionality, such as native form inputs; if you do pull in more packages, make sure you have a good reason for it!
 - Styling/visuals: just go for the bare basic requirements (feel free to use a CSS framework if you'd like).
 - Excessive abstraction: this is a one-off project, so abstract as much as makes sense to you, but don't over-engineer it; readability is paramount!
-- Backend/implementation: just build the web form; **the "submit" button doesn't need to do anything**.
+- Backend/implementation: just build the web form; **the "submit" button doesn't need to do anything**.
 
 ---
 
