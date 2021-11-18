@@ -5,7 +5,7 @@
     </b-navbar>
 
     <div class="center">
-      <Form v-if="showForm" />
+      <Form v-if="showForm" @close='closeBox'/>
       <b-button v-else :pressed.sync="showForm" size="lg" variant="danger"
         >Sign Me Up!</b-button
       >
@@ -28,6 +28,11 @@ export default {
   },
   components: {
     Form
+  },
+  methods: {
+    closeBox (input) {
+      this.showForm = input
+    }
   }
 }
 </script>

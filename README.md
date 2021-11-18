@@ -36,10 +36,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - As a Junior Front End Dev, I tried to catch the idea behind GDPR, since the concept was foreign or too little outside EU, and take into account on what's the business logic or the concept,(or at least some of it)
 - I collect some of reference to improve UI (adding some svg), research from the subscribe web form (from big website)
 - I'm using Bootstrap Vue as UI Framework to make things easier, some native HTML/CSS will also built if needed
-- Adding vuelidate to validate the user Input
+- Using native validation because we don't need more library to do simple things (BootstrapVue already enough)
 
 ### In the End (Yes it does matter)
 - I'm hesitate with the ethical of 'proudly GDPR-compliant organization' with asking and even seems to force their user by design with pre-check option to give their data. (None of it I saw are ethical with GDPR Guide I read so far)
-- By design, it 'force' the user with 'guilt-tripping text', donation shouldn't be manipulated using these means, we can use more subtle way to point our idea with a good conduct. (I will questioning their marketing campaign if they using these).
+- By design, it 'force' the user with 'guilt-tripping text', donation shouldn't be manipulated using these means, we can use more subtle way to point our idea with a good conduct. (Questionable way to made people spend more).
 - Also it's kinda ironic when Save The Icecaps Inc! trying to save the polar ice (global warming issue), by giving newsletter via post (?). Like really ? (Kinda Counterproductive on what they should do)
-- The task to be honest is suitable for Fresh Front End that was starting to learn vue, but may be a bit boring to Experienced Developer (Senior Dev/Lead Dev)
+- The task to be honest is suitable for Fresh Front End that was starting to learn vue, but may be a bit bland to Experienced Developer (Senior Dev/Lead Dev)
