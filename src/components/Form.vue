@@ -1,8 +1,7 @@
 <template>
   <div class="form">
-    <b-button id=x @click="$emit('close', false)"/>
+    <b-button id="x" @click="$emit('close', false)" />
     <b-form @submit="onSubmit" @reset="onReset">
-
       <label for="input-live">Name:</label>
       <b-form-input
         id="input-live"
@@ -29,6 +28,16 @@
         required
       />
 
+      <b-form-invalid-feedback id="input-live-feedback">
+        Enter Address Correctly
+      </b-form-invalid-feedback>
+
+      <b-form-checkbox
+        v-model="status"
+      >
+        I accept the terms and use
+      </b-form-checkbox>
+
       <b-button type="submit" variant="primary">Submit</b-button>
       <b-button type="reset" variant="danger">Reset</b-button>
     </b-form>
@@ -36,7 +45,6 @@
 </template>
 
 <script>
-
 export default {
   data () {
     return {
@@ -47,7 +55,8 @@ export default {
       state: {
         nameState: null,
         addressState: null
-      }
+      },
+      status: true
     }
   },
   watch: {
@@ -69,7 +78,11 @@ export default {
   methods: {
     onSubmit (event) {
       event.preventDefault()
-      alert('You`re Submitted')
+      if (this.status === true) {
+        alert('You`re Submitted')
+      } else {
+        alert('You need to accept the term before subscribe')
+      }
     },
     onReset (event) {
       event.preventDefault()
@@ -132,7 +145,7 @@ export default {
   position: relative;
   width: 520px;
   max-width: 100%;
-  padding: 50px ;
+  padding: 50px;
   margin: auto;
   overflow: hidden;
 
@@ -140,40 +153,41 @@ export default {
   align-items: center;
 }
 
-#x{
-    width:40px;
-    height:40px;
-    background-color:red;
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-radius:6px;
-    border: white;
-    box-shadow:2px 2px 4px 0 white;
-    float: right;
+#x {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 6px;
+  border: white;
+  box-shadow: 2px 2px 4px 0 white;
+  float: right;
 }
 
-#x:before,#x:after{
-    content:'';
-    position:absolute;
-    width:36px;
-    height:4px;
-    background-color:white;
-    border-radius:2px;
-    top:16px;
-    box-shadow:0 0 2px 0 #ccc;
+#x:before,
+#x:after {
+  content: "";
+  position: absolute;
+  width: 36px;
+  height: 4px;
+  background-color: white;
+  border-radius: 2px;
+  top: 16px;
+  box-shadow: 0 0 2px 0 #ccc;
 }
 
-#x:before{
-    -webkit-transform:rotate(45deg);
-    -moz-transform:rotate(45deg);
-    transform:rotate(45deg);
-    left:2px;
+#x:before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: 2px;
 }
-#x:after{
-    -webkit-transform:rotate(-45deg);
-    -moz-transform:rotate(-45deg);
-    transform:rotate(-45deg);
-    right:2px;
+#x:after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  right: 2px;
 }
 </style>
