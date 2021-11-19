@@ -1,9 +1,9 @@
-import { shallowMount } from '@vue/test-utils'
+import { mount } from '@vue/test-utils'
 import App from '@/App.vue'
 import Form from '@/components/Form.vue'
 
 describe('App.vue', () => {
-  const wrapper = shallowMount(App)
+  const wrapper = mount(App)
 
   it('Does the App Mounted Properly?', () => {
     expect(wrapper.exists()).toBe(true)
@@ -11,9 +11,9 @@ describe('App.vue', () => {
 })
 
 describe('Form.vue', () => {
-  const wrapper = shallowMount(Form)
+  const wrapper = mount(Form)
 
-  it('Does the Form Mounted Properly?', () => {
+  it('Does the Form Component Mounted Properly?', () => {
     expect(wrapper.exists()).toBe(true)
   })
 })

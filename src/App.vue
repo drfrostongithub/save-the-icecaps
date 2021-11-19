@@ -14,7 +14,7 @@
     <BModal v-model="cookieConsent" hide-footer centered title="Cookie Consent">
       <div>
         <p>We use our own and third-party cookies to show you more relevant content based on your browsing and navigation history.
-          In compliance with the GDPR Guide, please accept or manage your cookie settings below</p>
+          In compliance with the GDPR Guide, please accept or manage your cookie settings below.</p>
       </div>
       <div class="button_group" style="display:flex; justify-content: space-evenly;">
         <BButton class="mt-1" block variant="outline-success" @click="cookieConsent = false">Accept</BButton>
@@ -22,10 +22,10 @@
       </div>
     </BModal>
 
-    <!-- <a
+    <a class='fixed-bottom'
       href="https://www.vectorstock.com/royalty-free-vector/winter-animal-frame-design-with-polar-bear-vector-31101443"
-      >Vector image by VectorStock / vectorstock</a
-    > -->
+      >Designed by vectorstock (Image #31101443 at VectorStock.com)</a
+    >
   </div>
 </template>
 

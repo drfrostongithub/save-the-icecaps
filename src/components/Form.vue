@@ -50,42 +50,41 @@
         Min 1 Euro
       </BFormInvalidFeedback>
 
-    <div class="form-check form-switch">
-      <input class="form-check-input" type="checkbox" role="switch" v-model="form.subscribeMonthly">
-      <label class="form-check-label" >{{form.subscribeMonthly ? 'Subscribe Monthly (Save More Lives!)' : 'One-Off Purchase'}}</label>
-    </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" v-model="form.subscribeMonthly">
+        <label class="form-check-label" >{{form.subscribeMonthly ? 'Subscribe Monthly (Save More Lives!)' : 'One-Off Purchase'}}</label>
+      </div>
 
-    <div class="form-check form-switch">
-      <input class="form-check-input" type="checkbox" role="switch" v-model="optionalInfo">
-      <label class="form-check-label" >Help us become better (Totally up to you to fill these)</label>
-    </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" v-model="optionalInfo">
+        <label class="form-check-label" >Help us become better (Totally up to you to fill these)</label>
+      </div>
 
-    <div v-if="optionalInfo">
-      <BFormGroup id="input-group-gender" label="Gender:" label-for="input">
-        <b-form-select
-          v-model="form.gender"
-          :options="genders"
+      <div v-if="optionalInfo">
+        <BFormGroup id="input-group-gender" label="Gender:" label-for="input">
+          <b-form-select
+            v-model="form.gender"
+            :options="genders"
+          />
+        </BFormGroup>
+
+        <BFormGroup id="input-group-date" label="Date of Birth:" label-for="input">
+        <BFormInput
+          type=date
+          v-model="form.date"
+          aria-describedby="input-live-feedback"
         />
-      </BFormGroup>
+        </BFormGroup>
 
-      <BFormGroup id="input-group-date" label="Date of Birth:" label-for="input">
-      <BFormInput
-        type=date
-        v-model="form.date"
-        aria-describedby="input-live-feedback"
-      />
-      </BFormGroup>
+        <BFormGroup id="input-group-incomeLevel" label="Income Level:" label-for="input">
+        <BFormInput
+          v-model="form.incomeLevel"
+          aria-describedby="input-live-feedback"
+        />
+        </BFormGroup>
+      </div>
 
-      <BFormGroup id="input-group-incomeLevel" label="Income Level:" label-for="input">
-      <BFormInput
-        v-model="form.incomeLevel"
-        aria-describedby="input-live-feedback"
-      />
-      </BFormGroup>
-    </div>
-      <BFormCheckbox
-        v-model="status"
-        >
+      <BFormCheckbox v-model="status">
         I accept the terms and use
       </BFormCheckbox>
       <BButton type="submit" variant="primary">Submit</BButton>
@@ -201,6 +200,7 @@ export default {
       this.setEmpty(this.form)
     },
     setEmpty (form) {
+      // Need to be DRY, so we use a function
       // Get All keys in an object
       if (form !== null) {
         const keys = Object.keys(form)
