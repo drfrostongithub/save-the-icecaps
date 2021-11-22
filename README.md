@@ -24,6 +24,12 @@ npm run build
 npm run lint
 ```
 
+### Test Unit
+
+```
+npm run test:unit
+```
+
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
@@ -61,3 +67,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Also it's kinda questionable when Save The Icecaps Inc! trying to save the polar ice (global warming issue), by giving newsletter via post (?).(Kinda Counterproductive on what they should do)
 - The task to be honest is suitable for Fresh Front End that was starting to learn vue, I enjoy it when I also learning test case with Jest (you can test first or make function first).
 - In my honest opinion, TDD(Test Development Driven), are good to implement to improve not only the technical side, but also the user experience side, which will be improve the quality of product/feature that we deliver to our customer.
+- Test unit use npm run test:unit
