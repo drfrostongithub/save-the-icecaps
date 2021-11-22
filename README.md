@@ -56,8 +56,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - I'm trying to use test unit JEST, and split by Render and Functionality
 - Some issues regarding the webform:
   - The validation didn't behave according to what I expected, if you wrong on the name form, all the form will give warning (it should be only name that give warning).
-  - Some code aren't DRY enough, setEmpty and setNull are considered repetitive, it should be only using case, since the state are set to null, and the form are set to empty.
-  - There are some problems with Bootstrap Vue itself, so I was kinda switch between native and normal bootstrap to get what I expected on UI.
+  - Some codes aren't DRY enough, setEmpty and setNull are considered repetitive, tried to use case, but it makes more complicated to read, I prefer readibility over clean on this one.
+  - There are some issue with Bootstrap Vue itself, so I was kinda switch between native and normal bootstrap to get what I expected on UI.
   - Test case maybe not enough (I'm only using test unit for now, not on e2e), I'm still new to this, but I kinda enjoy it.
 
 ### In the End (Yes it does matter)
@@ -68,7 +68,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - The user would discouraged by the optional info that they need to fill, (Hence by default it's hidden, and only used if the user want's to fill it)
 - And accept and terms use checkbox shouldn't be used according to GDPR-EU Compliance **("GDPR requires that organizations implement a consent system that must be completely unambiguous and requires a clear opt-in. The use of pre-selected opt-in boxes has been specifically banned, and there need to be consent options for the processing of personal data in different ways.")**
 - By document, it design to 'force' the user with 'guilt-tripping text', donation shouldn't be manipulated using these means, we can use more subtle way to point our idea with a good conduct. (I change to a better wording).(None of it I saw are ethical with GDPR Guide I read so far!)
-- Also it's kinda questionable when Save The Icecaps Inc! trying to save the polar ice (global warming issue), by giving newsletter via post (?).(Kinda Counterproductive on what they should do). I personally would avoid this kind of companies, because it will create a legal dispute soon or later.
+- Also it's kinda questionable when Save The Icecaps Inc! trying to save the polar ice (global warming issue), by giving newsletter via post (?).(Kinda Counterproductive on what they should do). I personally would avoid this kind of companies, because it will create a legal issue soon or later.
 
 ## The test itself
 
