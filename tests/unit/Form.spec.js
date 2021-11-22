@@ -12,7 +12,7 @@ afterEach(() => {
 })
 
 describe('Form.vue', () => {
-  describe('Check the DOM Render', () => {
+  describe('Check the VDOM Render', () => {
     it('Does the Form Component Mounted Properly?', () => {
       expect(wrapper.exists()).toBe(true)
     })
@@ -49,6 +49,14 @@ describe('Form.vue', () => {
       await submitFormBtn.trigger('click')
       expect(wrapper.vm.showConfirm).toBe(false)
       expect(wrapper.vm.showAlert).toBe(true)
+    })
+
+    it('Emit close form if clicked on x', () => {
+      const closeFormBtn = wrapper.find('#x')
+
+      closeFormBtn.trigger('click')
+
+      expect(wrapper.emitted('close')[0][0]).toBeFalsy()
     })
   })
 })
