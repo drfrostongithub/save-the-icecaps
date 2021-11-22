@@ -71,5 +71,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## The test itself
 
-- The task to be honest is suitable for Fresh Front End that was starting to learn vue, I enjoy it when I also learning test case with Jest (you can test first or make function first).
 - In my honest opinion, TDD(Test Development Driven), are good to implement to improve not only the technical side, but also the user experience side, which will be improve the quality of product/feature that we deliver to our customer.
+- The task to be honest is suitable for Fresh Front End that was starting to learn vue, I enjoy it when I also learning test case with Jest (which in my case improve the code, the usability, and made me think find new error to be solved).
