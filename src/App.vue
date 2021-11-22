@@ -1,24 +1,24 @@
 <template>
   <div class="app">
-    <BNavbar type="dark" variant="dark">
+    <BNavbar class="navbar" type="dark" variant="dark">
       <BNavbarBrand href="#" class="navbar_title">Save The Icecaps Inc!</BNavbarBrand>
     </BNavbar>
 
     <div class="center">
       <Form v-if="showForm" @close='closeBox'/>
-      <BButton v-else :pressed.sync="showForm" size="lg" variant="danger"
+      <BButton class="showForm" v-else @click="showForm = true" size="lg" variant="danger"
         >Sign Me Up!</BButton
       >
     </div>
 
-    <BModal v-model="cookieConsent" hide-footer centered title="Cookie Consent">
+    <BModal v-model="cookieConsent" class="cookie-consent" hide-footer centered title="Cookie Consent">
       <div>
         <p>We use our own and third-party cookies to show you more relevant content based on your browsing and navigation history.
           In compliance with the GDPR Guide, please accept or manage your cookie settings below.</p>
       </div>
       <div class="button_group" style="display:flex; justify-content: space-evenly;">
-        <BButton class="mt-1" block variant="outline-success" @click="cookieConsent = false">Accept</BButton>
-        <BButton class="mt-1" block variant="info" disabled>Manage My Cookie</BButton>
+        <BButton class="accept" block variant="outline-success" @click="cookieConsent = false">Accept</BButton>
+        <BButton class="manage" block variant="info" disabled>Manage My Cookie</BButton>
       </div>
     </BModal>
 

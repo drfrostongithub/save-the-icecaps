@@ -87,16 +87,24 @@
       <BFormCheckbox v-model="status">
         I accept the terms and use
       </BFormCheckbox>
-      <BButton type="submit" variant="primary">Submit</BButton>
-      <BButton type="reset" variant="danger">Reset</BButton>
+      <button
+        type="button"
+        @click="onSubmit"
+        class="btn btn-success submitForm"
+      >Submit</button>
+      <button
+        type="reset"
+        @click="onReset"
+        class="btn btn-secondary resetForm"
+      >Reset</button>
 
-      <BModal id="modal-1" centered title="Confirmation Process" hide-footer>
+      <BModal v-model="showConfirm" id="modal-1" class="confirmModal" centered title="Confirmation Process" hide-footer>
         <div>
           <p>
             We'll ask for your donation of € {{form.donateAmount}} with your
             newsletter expected arrival on {{firstDayOfTheMonth}}
           </p>
-          <BButton class="mt-3" variant="outline-danger" block @click="confirm">Confirm</BButton>
+          <button class="btn btn-success submitForm" variant="outline-danger" block @click="confirm">Confirm</button>
         </div>
       </BModal>
 
@@ -131,6 +139,7 @@ export default {
       status: true,
       optionalInfo: false,
       showAlert: false,
+      showConfirm: false,
       genders: [{ text: 'Select One', value: null }, 'Man', 'Woman', 'Prefer Not to say']
     }
   },
@@ -188,7 +197,7 @@ export default {
           this.form.name &&
           this.form.address &&
           this.form.donateAmount > 0) {
-        this.$bvModal.show('modal-1')
+        this.showConfirm = true
       } else {
         this.showAlert = true
       }

@@ -47,11 +47,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - I'm still using Javascript and try to be simple with the library used because I'm aware it will be read by others. (I never work with typescript before, and IMO Javascript are more general than Typescript)
 - Because using bootstrap sometimes not get what I expected on the UI, I forced to use some inlines style which IMO was 'ugly', but it's works for now.
 - Cookie Consent available, as a Proudly GDPR-Compliant it should be the first to show.(for now manage cookie disabled)
-- So I'm trying to use test unit JEST -> Need more documentation
+- So I'm trying to use test unit JEST, and split by Render and Functionality
 - Some issues regarding the webform:
   - The validation didn't behave according to what I expected, if you wrong on the name form, all the form will give warning (it should be only name that give warning)
   - Some code aren't DRY enough, setEmpty and setNull are considered repetitive, it should be only using case, since the state are set to null, and the form are set to empty
-  - Test case maybe not enough, I'm still new to this, but I kinda enjoy it.
+  - Test case maybe not enough (I'm only using test unit for now, not on e2e), I'm still new to this, but I kinda enjoy it.
 
 ### In the End (Yes it does matter)
 
