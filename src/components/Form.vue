@@ -109,7 +109,7 @@
       </BModal>
 
       <BAlert v-model="showAlert" variant="danger" dismissible>
-        Please check the form again!
+        Please check the form again! (Ex: Name, Address, Donate Amount, and Terms)
       </BAlert>
     </BForm>
   </div>
@@ -136,7 +136,7 @@ export default {
         donateState: null
       },
       confirmMsg: '',
-      status: true,
+      status: false,
       optionalInfo: false,
       showAlert: false,
       showConfirm: false,
